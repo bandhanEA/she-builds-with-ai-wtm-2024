@@ -5,19 +5,19 @@ gcloud services enable aiplatform.googleapis.com
 gcloud services enable bigquery.googleapis.com
 gcloud services enable bigquerydatatransfer.googleapis.com
 
-# Copy public dataset
-bq mk --force=true --dataset she_builds_with_ai_2024
-bq mk \
-  --transfer_config \
-  --data_source=cross_region_copy \
-  --target_dataset=she_builds_with_ai_2024 \
-  --display_name='She Builds with AI Sample BigQuery SQL logic chat' \
-  --schedule_end_time="$(date -u -d '5 mins' +%Y-%m-%dT%H:%M:%SZ)" \
-  --params='{
-      "source_project_id":"eax-apps",
-      "source_dataset_id":"she_builds_with_ai_2024",
-      "overwrite_destination_table":"true"
-      }'
+# Copy dataset
+# bq mk --force=true --dataset she_builds_with_ai_2024
+# bq mk \
+#   --transfer_config \
+#   --data_source=cross_region_copy \
+#   --target_dataset=she_builds_with_ai_2024 \
+#   --display_name='Personalized solo travel guide - She Builds with AI 2024' \
+#   --schedule_end_time="$(date -u -d '5 mins' +%Y-%m-%dT%H:%M:%SZ)" \
+#   --params='{
+#       "source_project_id":"eax-apps",
+#       "source_dataset_id":"she_builds_with_ai_2024",
+#       "overwrite_destination_table":"true"
+#       }'
 
 # Install Python
 export PYTHON_PREFIX=~/miniforge
@@ -29,4 +29,4 @@ rm -rf ~/miniforge.sh
 ${PYTHON_PREFIX}/bin/pip install -r requirements.txt
 
 # Run app
-${PYTHON_PREFIX}/bin/streamlit run app.py --server.enableCORS=false --server.enableXsrfProtection=false --server.port 8080
+${PYTHON_PREFIX}/bin/streamlit run form.py --server.enableCORS=false --server.enableXsrfProtection=false --server.port 8080
