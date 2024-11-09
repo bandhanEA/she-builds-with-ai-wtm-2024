@@ -4,7 +4,7 @@
 
 ### Inspiration behind NomadNari
 - As an elder sister and a best friend, I have two very close womxn to me who travel solo, but only once a year because it takens months to even plan the trip, hours of reading reviews, and hours of double checking each and every location, route, and accomodation. Why? As you know,because of the research behind it. There are currently apps that help women travel together and help other solo travelers but there is currently nothing out there that creates safe trip trips for womxn. 
-- NomadNari aims to elimate the time it takes to research and provide womxn with a list of safe locations they can follow up on and choose from instead of thousands of options which led to confusion. 
+- NomadNari aims to elimate the time it takes to research and provide womxn with a list of safe locations they can follow up on and choose from instead of thousands of options which lead to time wasting and headaches. 
 - A survey of 400 U.S. women found that two in five had experienced sexual harassment while traveling alone. Sexual harassment is the most common gender risk for solo female travelers. ([https://www.researchgate.net/publication/344631063_The_Dark_Side_of_Solo_Female_Travel_Negative_Encounters_with_Male_Strangers])
 
 ### Why should we support NomadNari? 
