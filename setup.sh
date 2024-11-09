@@ -2,22 +2,6 @@
 
 # Enable Vertex AI and BigQuery
 gcloud services enable aiplatform.googleapis.com
-gcloud services enable bigquery.googleapis.com
-gcloud services enable bigquerydatatransfer.googleapis.com
-
-# Copy public dataset
-bq mk --force=true --dataset she_builds_with_ai_2024
-bq mk \
-  --transfer_config \
-  --data_source=cross_region_copy \
-  --target_dataset=she_builds_with_ai_2024 \
-  --display_name='She Builds with AI Sample BigQuery SQL logic chat' \
-  --schedule_end_time="$(date -u -d '5 mins' +%Y-%m-%dT%H:%M:%SZ)" \
-  --params='{
-      "source_project_id":"eax-apps",
-      "source_dataset_id":"she_builds_with_ai_2024",
-      "overwrite_destination_table":"true"
-      }'
 
 # Install Python
 export PYTHON_PREFIX=~/miniforge
