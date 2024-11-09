@@ -19,7 +19,7 @@ if __name__ == "__main__":
     with col3:
         st.image("vertex-ai.png")
 
-    st.write("NomadNari allows you to create an anonymous personlized solo trip to visit a destination of your choice with the focus on safety for womxn by womxn, while creating possibilities for all. This trip is powered by Google gemini-1.5-pro model and Google Cloud Run. So, let's get started!") 
+    st.write("NomadNari allows you to create an anonymous personlized solo trip guide with the focus on safety for womxn by womxn, while creating possibilities for all. `Nari` means for `woman` in Hindi, and in Japaese it means to succeed. In Korean, `Ri` stands for `beauty and grace`. This trip is powered by Google gemini-1.5-pro model and Google Cloud Run. So, let's get started!") 
     
     user_data = collect_user_input()
     #Create a submit button to generate the travel plan
