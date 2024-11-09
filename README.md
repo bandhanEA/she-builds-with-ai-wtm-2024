@@ -1,4 +1,10 @@
-# Discover the world, your way! 
+# Welcome to NomadNari! 
+
+- The gender equity category this project is break barriers towards 
+    - `Women and girl’s safety`
+- This project aims to combat United Nation's Sustainabilty goals
+    - `5.2 - Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.`
+    - `5.B - Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.`
 
 - This application allows you to create a personalized plan for travelling solo. Created for womxn by womxn. The meaning behind NomadNari comes from, `Nari` means for "woman" in Hindi, and in Japaese it means to succeed. In Korean, `Ri` stands for "beauty and grace". NomadNari aims to provide women with a travel guide that will help them succeed as a traveler. 
 
@@ -10,12 +16,6 @@
 ### Why should we support NomadNari? 
 - Research shows that traveling alone can offer several pros, including: increased self-confidence, personal growth through self-reflection, greater flexibility to tailor your itinerary, deeper immersion in local culture, opportunities to meet new people, improved decision-making skills, and a sense of empowerment by taking charge of your own experiences; essentially allowing you to discover more about yourself and your capabilities in a new environment. ([https://www.tandfonline.com/doi/full/10.1080/13683500.2024.2362380#:~:text=Exploring%20the%20benefits%20of%20solo,et%20al.%2C%202017).])
 
-- The gender equity category this project is break barriers towards 
-    - `Women and girl’s safety`
-- This project aims to combat United Nation's Sustainabilty goals
-    - `5.2 - Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.`
-    - `5.B - Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.`
-
 ### How we built it? 
 - We started with a survey, we asked our friends and family that travel solo, how would they like to be helped while planning their solo trip and what resources they would like to see. 
 - We used the `google-cloud-aiplatform` Python package, and used the `vertexai` SDK, that allowed us to Gemini through the `gemini-1.5-pro` model. 
@@ -26,7 +26,8 @@
 - This data is then fed into the Gemini model along with some Prompts to generate a travel guide for the user
 
 ### Challenges we ran into?
-- As a millenial woman who graduated high school a couple of plenty years ago, Im only used to in-person hackathons. NomadNari faced difficulties with securely a team that was not going to give up, we had 3 instances of where we thought had a team but time after time everyone back out due to their own personal reasons or time constraints and NomadNari understands, because life happens to all of us. 
+- As a millenial woman who graduated high school a couple of plenty years ago, Im only used to in-person hackathons. I personally faced difficulties with securely a team at first by going ghosted and then when I finally got into a team 3 times time after time with folx of complete opposite timezones on different topics but unfortunately everyone happened to back out due to their own personal reasons or time constraints which I understand, because life happens to all of us. 
+- Regardless on November 6th, when the last team didnt work out, I decided to roll up my sleeves and found the right oppurtunity to do this project for my loved ones.
 
 ### Accomplishments we're proud of? 
 - We were able to get back up and keep on trying to achieve our mission of providing a trip guide even after facing several challenges. 
