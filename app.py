@@ -3,7 +3,7 @@ from functions.travel_generator import generate_travel_plan
 from functions.form import collect_user_input
 
 st.set_page_config(
-    page_title="Travel Guide - WTM",
+    page_title="NomadNari - WTM",
     page_icon="vertex-ai.png",
     layout="wide",
 )
