@@ -12,14 +12,14 @@ if __name__ == "__main__":
 
     col1, col2, col3 = st.columns([4, 0.5, 0.5])
     with col1:
-        st.write("## Discover the World, Your Way!")
-        st.write("#### Women Techmakers She Builds With AI 2024 Hackathon")
+        st.write("## Welcome to NomadNari")
+        st.write("#### This project is part of Women Techmakers She Builds With AI 2024 Hackathon")
     with col2:
         st.image("she_builds_with_ai_general_devpost.png")
     with col3:
         st.image("vertex-ai.png")
 
-    st.write("This travel guide allows you to create an anonymous personlized solo trip to visit a destination of your choice with the focus on safety and empowerment for womxn by womxn, and creating possibilities for all. This trip is powered by Google gemini-1.5-pro model and Google Cloud Run. So, let's get started!") 
+    st.write("NomadNari allows you to create an anonymous personlized solo trip to visit a destination of your choice with the focus on safety for womxn by womxn, while creating possibilities for all. This trip is powered by Google gemini-1.5-pro model and Google Cloud Run. So, let's get started!") 
     
     user_data = collect_user_input()
     #Create a submit button to generate the travel plan

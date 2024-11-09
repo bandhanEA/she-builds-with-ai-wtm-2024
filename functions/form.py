@@ -64,18 +64,18 @@ def collect_user_input():
         
         with colReason: 
             # Reason for Travel
-            reason_for_travel = st.selectbox("Reason for Travel", [
+            reason_for_travel = st.multiselect("Reason for Travel", [
                 "Business", "Vacation", "Family Visit", "Study", "Possibly Relocation and Work"
             ]) or "Not specified by user"
 
         col7, col8, col9 = st.columns([1,1,1])
         with col7:
             # Travel Experience
-            travel_experience = st.selectbox("Travel Experience", [
-                "Newbie (never traveled before)",
-                "Beginner (traveled only in a group before)",
-                "Medium Solo Traveler (has traveled solo 1-2 times)",
-                "Frequent solo traveler (travels solo every year)"
+            travel_experience = st.selectbox("Solo Travel Experience", [
+                "Never (Never traveled before)",
+                "Beginner (Travels only in a group)",
+                "Intermediate (Travels 1-2 solo times)",
+                "Experienced (Travels solo every year)"
             ])
 
         with col8:    
@@ -87,7 +87,7 @@ def collect_user_input():
         with col9:
             # Interests
             interests = st.multiselect("Interests", [
-                "Outdoors", "Indoors", "Business", "Technology", "Health and Fitness",
+                "Arts and Culture", "History and Heritage", "Nature and Wildlife", "Health and Wellness", "Education", "Food and Drinks"
             ]) or "Not specified by user"
 
         sensitivity_preferences = st.multiselect("Sensitivity Preferences", [
@@ -109,7 +109,7 @@ def collect_user_input():
         #         other_disability = st.text_input("Please specify your disability")
 
 
-        additional_preferences = st.text_input("Anything else you'd like to share about your trip? Example, visit a university, or spend a day at the financial district") or "NONE"
+        additional_preferences = st.text_input("Anything else you'd like to share about your trip? Example, visit a university, or spend a day at the financial district or any another additional prefernce.") or "NONE"
 
         st.write("Please note this guide is created using AI. Please review it carefully. Currently, this guide does not cater to disabilities and pets. We are working on adding these features and more!")
 

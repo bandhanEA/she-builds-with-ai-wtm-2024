@@ -5,7 +5,6 @@ from vertexai.generative_models import (
     Tool,
 )
 
-
 def generate_travel_plan(user_data):
     model = GenerativeModel(
         "gemini-1.5-pro",
