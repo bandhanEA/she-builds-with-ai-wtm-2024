@@ -17,7 +17,7 @@ def collect_user_input():
             preferred_destination = st.text_input("Arrival City, Country")
 
         with col4:
-            arrival_date = st.date_input("Arrival Date", datetime.date.today() + datetime.timedelta(days=7))
+            arrival_date = st.date_input("Return Date", datetime.date.today() + datetime.timedelta(days=7))
 
         # Calculate number of days
         if departure_date and arrival_date:
@@ -118,7 +118,7 @@ def collect_user_input():
     if submit_button:
         user_data_str = f"""
         Departure Location is {location} with departure date {departure_date}.
-        Arrival Destination is {preferred_destination} with arrival date {arrival_date}.
+        Arrival Destination is {preferred_destination} with return date {arrival_date}.
         User wants to travel for {number_of_days} days.
         The reason for user's travel is {reason_for_travel}.
         User was born in {age}.
