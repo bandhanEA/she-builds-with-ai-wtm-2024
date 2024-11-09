@@ -16,10 +16,34 @@
     - `5.2 - Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.`
     - `5.B - Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.`
 
-## Overview
+### How we built it? 
+- We started with a survey, we asked our friends and family that travel solo, how would they like to be helped while planning their solo trip and what resources they would like to see. 
+- We used the `google-cloud-aiplatform` Python package, and used the `vertexai` SDK, that allowed us to Gemini through the `gemini-1.5-pro` model. 
+- We then picked `Streamlit` to support the front-end 
 
+### How does NomadNari currently work? 
+- The user inputs their prefernces on travel including location, dates, accomodations, travel, etc. 
+- This data is then fed into the Gemini model along with some Prompts to generate a travel guide for the user
+
+### Challenges we ran into?
+- As a millenial woman who graduated high school a couple of plenty years ago, Im only used to in-person hackathons. NomadNari faced difficulties with securely a team that was not going to give up, we had 3 instances of where we thought had a team but time after time everyone back out due to their own personal reasons or time constraints and NomadNari understands, because life happens to all of us. 
+
+### Accomplishments we're proud of? 
+- We were able to get back up and keep on trying to achieve our mission of providing a trip guide even after facing several challenges. 
+- Deploying to production
+
+##### Future plans include: 
+- Account Sign Up/Sign In
+- A Community Discussion Board
+- Ability to Edit the Travel Guide and Save it to their Profile
+- Ability to support folx with disabilities and pets
+- Firebase Authentication
+- Firebase Firestore
+- Cloud Functions 
+
+## Overview
 This app demonstrates the power of
-- Generative AI on Vextex AI - Gemini's Generative Model `gemini-1.5-pro` through `vertexai.generative_model` library 
+- Generative AI on Vextex AI - The `google-cloud-aiplatform` Python package, `vertexai` SDK, and Gemini's Generative Model `gemini-1.5-pro`. 
 - Streamlit `streamlit` for UI
 - Cloud Run for deploying
 
@@ -40,8 +64,3 @@ This script will:
 - Start the app
 
 #### We are working on updating this project after the hackathon is over and publish this project to create a safer travel experience for every women
-
-##### Future plans include: 
-- Firebase Authentication
-- Firebase Firestore
-- Cloud Functions 
