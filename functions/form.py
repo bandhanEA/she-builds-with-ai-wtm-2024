@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 
 def collect_user_input():
-    with st.form(key='travel_form'):
+    with st.form(key='travel_form', enter_to_submit=False):
         col1, col2  = st.columns([2,1])
 
         with col1:
