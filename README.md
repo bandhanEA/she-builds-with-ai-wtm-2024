@@ -1,6 +1,6 @@
 # Welcome to NomadNari! 
 
-NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. The meaning behind NomadNari comes from, `Nari` means `woman` in Hindi, and in Japanese it means to succeed. In Korean, `Ri` means `beauty and grace`. Created for womxn by womxn. 
+NomadNari allows you to create an anonymous personalized travel guide for solo traveling keeping womxn's safety first. The meaning behind NomadNari comes from, `Nari` meaning `woman` in Hindi, and in Japanese meaning to succeed. In Korean, `Ri` means `beauty and grace`. Created for womxn by womxn. 
 
 - The gender equity category this project is breaking barriers towards: 
     - `Women and girl’s safety`
@@ -22,8 +22,9 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
 ### How we built it? 
 - We started with a survey, we asked our friends and family that travel solo, how would they like to be helped while planning their solo trip and what resources would they like to see.
 - The most suggested answer was a condensed list of safe places for them to travel to, so they dont have to waste hours reading up reviews. Hence, the travel guide. 
-- We used the `google-cloud-aiplatform` Python package, and used the `vertexai` SDK, that allowed us to Gemini through the `gemini-1.5-pro` model. 
+- We used the `google-cloud-aiplatform` Python package, and used the `vertexai` SDK, that allowed us to use Gemini through the `gemini-1.5-pro` model. 
 - We then picked `Streamlit` to support the front-end 
+- After through testing and updates, we deployed the application to Google Cloud Cloud Run 
 
 ### How does NomadNari currently work? 
 - The user inputs their prefernces on the form including location, dates, accomodations, travel, etc. 
