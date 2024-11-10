@@ -1,2 +1,2 @@
 google-cloud-aiplatform==1.68.0
-streamlit==1.38.0
+streamlit==1.40.0

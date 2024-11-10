@@ -21,8 +21,6 @@ def generate_travel_plan(user_data):
     - Safety as a Woman: You must prioritize women-only night accommodations and recommend places with positive reviews from female solo travelers.  Include the names and addresses of hostels, hotels, hostels, or Airbnb accommodations.
     - Budget: You must display all the costs in both the destination location and arrival location currency rates for each day, and total cost for the trip while keeping all costs under the budget.
     - Emergency Contacts: Include a list of emergency numbers and locations for the destination and advise the user to save them on their phone. Locations should include closest pharamacies, hospitals, police stations, and their nationality embassy to the accommodations recommended.
-    - Tips: Share tips for solo travelers in the preferred destination.
-    - You must include domain website links and addresses of recommended places.
 
     Please ensure the itinerary includes:
     - Keep in mind if user has a disability or not while recommending activities.
@@ -31,6 +29,7 @@ def generate_travel_plan(user_data):
     - Any cultural or local events happening during the travel dates.
     - Weather forecast for the travel dates.
     - Local events and festivals happening during the travel dates.
+    - Tips: Share tips for solo travelers in the preferred destination.
     - Additional mention that this agenda: flight costs, visa requirements and costs, and travel insurance recommendations.
     """
 
