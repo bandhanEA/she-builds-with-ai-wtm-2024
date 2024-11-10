@@ -1,6 +1,6 @@
 # Welcome to NomadNari! 
 
-NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. Created for womxn by womxn. The meaning behind NomadNari comes from, `Nari` means for "woman" in Hindi, and in Japaese it means to succeed. In Korean, `Ri` stands for "beauty and grace". NomadNari aims to provide women with a travel guide that will help them succeed as a traveler. 
+NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. Created for womxn by womxn. The meaning behind NomadNari comes from, `Nari` means for `woman` in Hindi, and in Japaese it means to succeed. In Korean, `Ri` stands for `beauty and grace`. 
 
 - The gender equity category this project is breaking barriers towards: 
     - `Women and girl’s safety`
@@ -9,7 +9,7 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
     - `5.B - Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.`
 
 ### Inspiration behind NomadNari
-- As an elder sister and a best friend, I have two very close single womxn in my life who travel solo, but rarely because it has takens months to even plan the trip, hours of reading reviews, and hours of double checking each and every location, route, and accomodation. Why? As you know,because of the research behind it. There are currently apps that help women travel together and help other solo travelers but there is currently nothing out there that creates safe trip trips for womxn. 
+- As an elder sister and a best friend, I have two very close single womxn in my life who travel solo, but rarely because it has takens months to even plan the trip, hours of reading reviews, and hours of double checking each and every location, route, and accomodation. There are currently apps that help women travel together and help other solo travelers when they think they might be in danger but there is currently nothing out there that creates a safe trip guide for womxn. 
 - NomadNari aims to elimate the time it takes to research and provide womxn with a list of safe locations they can follow up on and choose from instead of thousands of options which lead to time wasting and headaches. 
 - A survey of 400 U.S. women found that two in five had experienced sexual harassment while traveling alone. Sexual harassment is the most common gender risk for solo female travelers. ([https://www.researchgate.net/publication/344631063_The_Dark_Side_of_Solo_Female_Travel_Negative_Encounters_with_Male_Strangers])
 - NomadNari wants to become a resource to help female solo travelers prepare for their solo trips inorder to avoid users being a vicitm of a crime.
@@ -18,7 +18,8 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
 - Research shows that traveling alone can offer several pros, including: increased self-confidence, personal growth through self-reflection, greater flexibility to tailor your itinerary, deeper immersion in local culture, opportunities to meet new people, improved decision-making skills, and a sense of empowerment by taking charge of your own experiences; essentially allowing you to discover more about yourself and your capabilities in a new environment. ([https://www.tandfonline.com/doi/full/10.1080/13683500.2024.2362380#:~:text=Exploring%20the%20benefits%20of%20solo,et%20al.%2C%202017).])
 
 ### How we built it? 
-- We started with a survey, we asked our friends and family that travel solo, how would they like to be helped while planning their solo trip and what resources they would like to see. 
+- We started with a survey, we asked our friends and family that travel solo, how would they like to be helped while planning their solo trip and what resources would they like to see.
+- The most suggested answer was a condensed list of safe places for them to travel to, so they dont have to waste hours reading up reviews. Hence, the travel guide. 
 - We used the `google-cloud-aiplatform` Python package, and used the `vertexai` SDK, that allowed us to Gemini through the `gemini-1.5-pro` model. 
 - We then picked `Streamlit` to support the front-end 
 
