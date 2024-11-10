@@ -1,14 +1,12 @@
 # Welcome to NomadNari! 
 
-NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. Created for womxn by womxn. The meaning behind NomadNari comes from, `Nari` means for `woman` in Hindi, and in Japanese it means to succeed. In Korean, `Ri` stands for `beauty and grace`. 
+NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. The meaning behind NomadNari comes from, `Nari` means `woman` in Hindi, and in Japanese it means to succeed. In Korean, `Ri` means `beauty and grace`. Created for womxn by womxn. 
 
 - The gender equity category this project is breaking barriers towards: 
     - `Women and girl’s safety`
 - This project aims to combat United Nation's Sustainabilty goals
     - `5.2 - Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.`
     - `5.B - Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.`
-
-##### Visit NomadNari > [(https://she-builds-with-ai-2024-18051056880.us-central1.run.app/)]
 
 ### Inspiration behind NomadNari
 - As an elder sister and a best friend, I have two very close single womxn in my life who travel solo, but rarely because it has takens months to even plan the trip, hours of reading reviews, and hours of double checking each and every location, route, and accomodation. There are currently apps that help women travel together and help other solo travelers when they think they might be in danger but there is currently nothing out there that creates a safe trip guide for womxn. 
@@ -18,6 +16,8 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
 
 ### Why should we support NomadNari? 
 - Research shows that traveling alone can offer several pros, including: increased self-confidence, personal growth through self-reflection, greater flexibility to tailor your itinerary, deeper immersion in local culture, opportunities to meet new people, improved decision-making skills, and a sense of empowerment by taking charge of your own experiences; essentially allowing you to discover more about yourself and your capabilities in a new environment. ([https://www.tandfonline.com/doi/full/10.1080/13683500.2024.2362380#:~:text=Exploring%20the%20benefits%20of%20solo,et%20al.%2C%202017).])
+
+##### Visit NomadNari > [(https://she-builds-with-ai-2024-18051056880.us-central1.run.app/)]
 
 ### How we built it? 
 - We started with a survey, we asked our friends and family that travel solo, how would they like to be helped while planning their solo trip and what resources would they like to see.
@@ -38,6 +38,7 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
 - Deploying to production
 
 ##### Future plans include: 
+- A new design for UI/UX
 - Account Sign Up/Sign In
 - A Community Discussion Board
 - Ability to Edit the Travel Guide and Save it to their Profile
@@ -45,6 +46,8 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
 - Firebase Authentication
 - Firebase Firestore
 - Cloud Functions 
+
+##### Visit NomadNari > [(https://she-builds-with-ai-2024-18051056880.us-central1.run.app/)]
 
 ## Overview
 This app demonstrates the power of
