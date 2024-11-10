@@ -8,6 +8,8 @@ NomadNari allows you to create a personalized plan for solo traveling keeping wo
     - `5.2 - Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.`
     - `5.B - Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.`
 
+##### Visit NomadNari > [(https://she-builds-with-ai-2024-18051056880.us-central1.run.app/)]
+
 ### Inspiration behind NomadNari
 - As an elder sister and a best friend, I have two very close single womxn in my life who travel solo, but rarely because it has takens months to even plan the trip, hours of reading reviews, and hours of double checking each and every location, route, and accomodation. There are currently apps that help women travel together and help other solo travelers when they think they might be in danger but there is currently nothing out there that creates a safe trip guide for womxn. 
 - NomadNari aims to elimate the time it takes to research and provide womxn with a list of safe locations they can follow up on and choose from instead of thousands of options which lead to time wasting and headaches. 
