@@ -1,6 +1,6 @@
 # Welcome to NomadNari! 
 
-NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. Created for womxn by womxn. The meaning behind NomadNari comes from, `Nari` means for `woman` in Hindi, and in Japaese it means to succeed. In Korean, `Ri` stands for `beauty and grace`. 
+NomadNari allows you to create a personalized plan for solo traveling keeping womxn's safety first. Created for womxn by womxn. The meaning behind NomadNari comes from, `Nari` means for `woman` in Hindi, and in Japanese it means to succeed. In Korean, `Ri` stands for `beauty and grace`. 
 
 - The gender equity category this project is breaking barriers towards: 
     - `Women and girl’s safety`
