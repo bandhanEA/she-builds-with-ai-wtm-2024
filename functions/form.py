@@ -30,7 +30,7 @@ def collect_user_input():
         with bugCol1:
             # Budget Preferences
             budget = st.selectbox("Budget", [
-                "Low (under $1k)", "Medium ($1k - 3k)", "High ($5k+)"
+                "Low (under $1k) USD", "Medium ($1k - 3k) USD", "High ($5k+) USD"
             ]) or "Not specified by user"
 
         with bugCol2:
