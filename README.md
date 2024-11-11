@@ -32,7 +32,7 @@ NomadNari allows you to create an anonymous personalized travel guide for solo t
 - After through testing and updates, we deployed the application to Google Cloud Cloud Run. 
 
 ### How does NomadNari currently work? 
-- The user inputs their prefernces on the form including location, dates, accomodations, travel, etc. 
+- The user inputs their preferences on the form including location, dates, accommodations, travel, etc. 
 - This data is fed into the Gemini model along with some Prompts to generate a travel guide for the user
 
 ### Challenges we ran into?

@@ -109,7 +109,7 @@ def collect_user_input():
         #         other_disability = st.text_input("Please specify your disability")
 
 
-        additional_preferences = st.text_input("Anything else you'd like to share about your trip? Example, visit a university, or spend a day at the financial district or any another additional prefernce.") or "NONE"
+        additional_preferences = st.text_input("Anything else you'd like to share about your trip? Example, visit a university, or spend a day at the financial district or any another additional preferences.") or "NONE"
 
         st.write("Please note this guide is created using AI. Please review it carefully. Currently, this guide does not cater to disabilities and pets. We are working on adding these features and more!")
 
