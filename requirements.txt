@@ -1,2 +1,3 @@
 google-cloud-aiplatform==1.68.0
 streamlit==1.40.0
+hydralit_components==1.0.9
