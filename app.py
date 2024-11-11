@@ -1,7 +1,6 @@
 import streamlit as st
 from functions.travel_generator import generate_travel_plan
 from functions.form import collect_user_input
-import hydralit_components as hc
 
 st.set_page_config(
     page_title="NomadNari - WTM",
@@ -25,7 +24,7 @@ if __name__ == "__main__":
     user_data = collect_user_input()
     #Create a submit button to generate the travel plan
     if user_data:
-        with hc.HyLoader('Generating your travel plans....',hc.Loaders.standard_loaders,index=[2,2,2,2,2,2]):
+        with st.spinner('Generating your travel plan...'):
             travel_plan = generate_travel_plan(user_data)
             st.write(travel_plan)
             st.session_state.travel_plan = travel_plan
