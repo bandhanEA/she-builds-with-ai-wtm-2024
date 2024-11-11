@@ -6,7 +6,7 @@ def collect_user_input():
         col1, col2  = st.columns([2,1])
 
         with col1:
-            location = st.text_input("Departure City, Country")
+            location = st.text_input("Departure Location")
 
         with col2:
             departure_date = st.date_input("Departure Date", datetime.date.today())
@@ -14,7 +14,7 @@ def collect_user_input():
         col3, col4 = st.columns([2,1])
 
         with col3: 
-            preferred_destination = st.text_input("Arrival City, Country")
+            preferred_destination = st.text_input("Arrival Destination(s)")
 
         with col4:
             arrival_date = st.date_input("Return Date", datetime.date.today() + datetime.timedelta(days=7))
@@ -30,7 +30,7 @@ def collect_user_input():
         with bugCol1:
             # Budget Preferences
             budget = st.selectbox("Budget", [
-                "Low (under $1k USD)", "Medium ($1k - 3k USD)", "High ($5k+ USD)"
+                "Low (under $1k)", "Medium ($1k - 3k)", "High ($5k+)"
             ]) or "Not specified by user"
 
         with bugCol2:
@@ -118,15 +118,15 @@ def collect_user_input():
     if submit_button:
         user_data_str = f"""
         Departure Location is {location} with departure date {departure_date}.
-        Arrival Destination is {preferred_destination} with return date {arrival_date}.
+        Arrival Destination(s) is/are {preferred_destination} with return date {arrival_date} back to departure location.
         User wants to travel for {number_of_days} days.
         The reason for user's travel is {reason_for_travel}.
-        User was born in {age}.
+        User's age is {age}.
         User's nationality is {nationality}.
         User's travel experience is {travel_experience}.
         User's interests are {interests}.
         User's budget preference is {budget}.
-        User's comfort level with solo travel is {comfort_level}.
+        User's comfort with solo travel is {comfort_level}.
         User's preferred accommodation types are {accommodation_types}.
         User's preferred mode of transportation is {transportation_preferences}.
         User's sensitivity preferences are {sensitivity_preferences}.
