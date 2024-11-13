@@ -19,7 +19,7 @@ if __name__ == "__main__":
     with col3:
         st.image("vertex-ai.png")
 
-    st.write("NomadNari allows you to create an anonymous personalized solo trip guide with the focus on safety. Nari means woman in Hindi, and in Japanese it means to succeed. In Korean, Ri means beauty and grace. Created for womxn by womxn. This trip is powered by Google gemini-1.5-pro model and Google Cloud Run. So, let's get started!") 
+    st.write("NomadNari allows you to create an anonymous personalized solo trip guide with the focus on safety. Nari means woman in Hindi, and in Japanese it means to succeed. In Korean, Ri means beauty and grace. Created for women by women. This trip is powered by Google gemini-1.5-pro model and Google Cloud Run. So, let's get started!") 
     
     user_data = collect_user_input()
     #Create a submit button to generate the travel plan
@@ -28,6 +28,6 @@ if __name__ == "__main__":
             travel_plan = generate_travel_plan(user_data)
             st.write(travel_plan)
             st.session_state.travel_plan = travel_plan
-            st.write("#### Please note this guide is created using AI. Please review it carefully. At this launch, we ask you copy the travel plan to your local file or preferably a Google Doc. Our next update will allow you to save the travel plan to your account along with have discussions with fellow solo womxn travellers.")
+            st.write("#### Please note this guide is created using AI. Please review it carefully. At this launch, we ask you copy the travel plan to your local file or preferably a Google Doc. Our next update will allow you to save the travel plan to your account along with have discussions with fellow solo women travellers.")
 
             
