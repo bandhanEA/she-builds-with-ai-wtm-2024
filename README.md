@@ -20,7 +20,7 @@ This app demonstrates the power of
 This script will:
 
 - Connect to the Vertex AI API
-- Install Python and packages
+- Install Python packages
 - Start the app
 
 
@@ -106,7 +106,7 @@ This app demonstrates the power of
 This script will:
 
 - Connect to the Vertex AI API
-- Install Python and packages
+- Install Python packages
 - Start the app
 
 #### We are working on updating this project after the hackathon is over and publish this project to create a safer travel experience for every women
