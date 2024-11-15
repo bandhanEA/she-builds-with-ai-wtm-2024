@@ -6,10 +6,11 @@ This app demonstrates the power of
 - Streamlit `streamlit` for UI
 - Cloud Run for deploying
 
-## Prerequisites
+## Prerequisites to run locally
 
 - A Google Cloud project with billing enabled
-- APIs for Vertex AI, and Cloud Run enabled
+- API for Vertex AI enabled
+- Cloud Run
 
 ## To run the app on your local machine: 
 - Authenticate your local machine with your project name
