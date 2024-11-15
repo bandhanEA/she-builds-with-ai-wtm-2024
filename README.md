@@ -1,5 +1,28 @@
 # Welcome to NomadNari! 
 
+## Overview
+This app demonstrates the power of
+- Generative AI on Vextex AI - The `google-cloud-aiplatform` Python package, `vertexai` SDK, and Gemini's Generative Model `gemini-1.5-pro`. 
+- Streamlit `streamlit` for UI
+- Cloud Run for deploying
+
+## Prerequisites
+
+- A Google Cloud project with billing enabled
+- APIs for Vertex AI, and Cloud Run enabled
+
+## To run the app on your local machine: 
+- Authenticate your local machine with your project name
+`gcloud config set project your-project-id`
+- Run `bash setup.sh`
+
+This script will:
+
+- Connect to the Vertex AI API
+- Install Python and packages
+- Start the app
+
+
 NomadNari allows you to create an anonymous personalized travel guide for solo traveling keeping womxn's safety first. The meaning behind NomadNari comes from, `Nari` meaning `woman` in Hindi, and in Japanese meaning to succeed. In Korean, `Ri` means `beauty and grace`. Created for womxn by womxn. 
 
 - The gender equity category this project is breaking barriers towards: 
